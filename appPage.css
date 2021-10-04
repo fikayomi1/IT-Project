@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.file-des{
+    border-color: green;
+}
+header{
+    background-color: rgb(42, 153, 101);
+    color: white;
+    display: flex;
+    width: 100%;
+    padding: -1%;
+}
+#links{
+    width: 60%;
+    border: var(--border);
+    padding: 2% 5%;
+}
+#logo{
+    width: 40%;
+    border: var(--border);
+    padding: 0 3%;
+    padding-top: -1%;
+    padding-bottom: 1%;
+
+}
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    margin: 0 2%;
+}
+#links button{
+    margin: 0 9%;
+    margin-top: -1.5%;
+    color: white;
+    background-color: rgb(26, 55, 66);
+    border: none;
+    padding: 2%;
+}
+a{
+    text-decoration: none;
+    color: lightblue;
+    
+}
+#container{
+    margin: 2% 20%;
+    /* border: 2px solid black; */
+    padding-left:3%;
+    padding-top: 2%;
+}
+#container h2{
+    margin: 0 25%;
+    margin-bottom: 3%;
+}
+#in{
+    padding: 1%;
+    width: 36%;
+    margin: 2% 4%;
+    border: none;
+    outline: none;
+    background-color: lightgrey;
+}
+#in2{
+    padding: 1%;
+    width: 80%;
+    margin: 2% 4%;
+    background-color: lightgrey;
+    border: none;
+    outline: none;
+}
+#file{
+    padding: 2% 6%;
+    content: "Upload";
+    background-color: white;
+    margin: 0 26%;
+}
+#container button{
+    margin: 0 28%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    padding: 1% 15%;
+    background-color: rgb(42, 153, 101);
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
