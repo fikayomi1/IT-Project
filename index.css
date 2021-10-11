@@ -34,13 +34,13 @@ li{
     list-style-type: none;
     margin: 0 2%;
 }
-#links button{
+#button{
     margin: 0 9%;
     margin-top: -1.5%;
     color: white;
     background-color: rgb(26, 55, 66);
     border: none;
-    padding: 2%;
+    padding: 2% 3.5%;
 }
 a{
     text-decoration: none;
